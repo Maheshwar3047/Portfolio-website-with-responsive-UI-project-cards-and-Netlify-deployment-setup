@@ -2,7 +2,6 @@
 
 A modern, responsive portfolio website built with React, TypeScript, and Material-UI. This website showcases projects, skills, and contact information with smooth animations and a clean design.
 
-![Portfolio Demo Website](https://fullstackdevmaheshwar.netlify.app/)
 
 ## Features
 
@@ -129,9 +128,6 @@ npx netlify deploy --prod
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
