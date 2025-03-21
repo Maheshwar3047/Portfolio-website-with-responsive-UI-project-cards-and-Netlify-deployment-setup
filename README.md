@@ -10,7 +10,7 @@ A modern, responsive portfolio website built with React, TypeScript, and Materia
 - ✅ Modern UI with Material-UI components
 - ✅ Smooth animations with Framer Motion
 - ✅ TypeScript for type safety
-- ✅ Project cards with category filters
+- ✅ Project cards with category icons
 - ✅ Contact form with serverless functions
 - ✅ Performance optimized
 - ✅ SEO friendly
@@ -42,8 +42,8 @@ A modern, responsive portfolio website built with React, TypeScript, and Materia
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/maheshwar-prasad/demo-website.git
-   cd demo-website
+   git clone https://github.com/Maheshwar3047/Portfolio-website-with-responsive-UI-project-cards-and-Netlify-deployment-setup.git
+   cd Portfolio-website-with-responsive-UI-project-cards-and-Netlify-deployment-setup
    ```
 
 2. Install dependencies
@@ -135,6 +135,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [your-email@example.com](mailto:your-email@example.com)
+Maheshwar - [your-email@example.com](mailto:your-email@example.com)
 
-Project Link: [https://github.com/maheshwar-prasad/demo-website](https://github.com/maheshwar-prasad/demo-website)
+Project Link: [https://github.com/Maheshwar3047/Portfolio-website-with-responsive-UI-project-cards-and-Netlify-deployment-setup](https://github.com/Maheshwar3047/Portfolio-website-with-responsive-UI-project-cards-and-Netlify-deployment-setup)
+
+Live Demo: [https://fullstackdevmaheshwar.netlify.app/](https://fullstackdevmaheshwar.netlify.app/)
