@@ -135,7 +135,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Maheshwar - [your-email@example.com](mailto:your-email@example.com)
+Maheshwar - [maheshwar3047@gmail.com](mailto:maheshwar3047@gmail.com)
 
 Project Link: [https://github.com/Maheshwar3047/Portfolio-website-with-responsive-UI-project-cards-and-Netlify-deployment-setup](https://github.com/Maheshwar3047/Portfolio-website-with-responsive-UI-project-cards-and-Netlify-deployment-setup)
 
