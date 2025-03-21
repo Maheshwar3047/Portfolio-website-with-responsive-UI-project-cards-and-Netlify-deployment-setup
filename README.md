@@ -1,46 +1,140 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React, TypeScript, and Material-UI. This website showcases projects, skills, and contact information with smooth animations and a clean design.
 
-## Available Scripts
+![Portfolio Demo Website](https://fullstackdevmaheshwar.netlify.app/)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- ✅ Responsive design - looks great on all devices
+- ✅ Modern UI with Material-UI components
+- ✅ Smooth animations with Framer Motion
+- ✅ TypeScript for type safety
+- ✅ Project cards with category filters
+- ✅ Contact form with serverless functions
+- ✅ Performance optimized
+- ✅ SEO friendly
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tech Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Frontend:**
+  - React
+  - TypeScript
+  - Material-UI
+  - Framer Motion
+  - CSS Modules
 
-### `npm test`
+- **Backend:**
+  - Netlify Functions
+  - MySQL database
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Deployment:**
+  - Netlify for hosting and serverless functions
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (v14 or higher)
+- npm or yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository
+   ```bash
+   git clone https://github.com/maheshwar-prasad/demo-website.git
+   cd demo-website
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Environment Variables
 
-## Learn More
+Create a `.env` file in the root directory and add the following variables:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+REACT_APP_API_URL=http://localhost:8888/.netlify/functions
+DB_HOST=your-db-host
+DB_USER=your-db-username
+DB_PASSWORD=your-db-password
+DB_DATABASE=your-db-name
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Building for Production
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+The build artifacts will be stored in the `build/` directory.
+
+## Deployment
+
+This project is set up for deployment on Netlify. The `netlify.toml` file in the root directory contains the configuration for the deployment.
+
+```bash
+# Deploy to Netlify (draft)
+npx netlify deploy
+
+# Deploy to production
+npx netlify deploy --prod
+```
+
+## Project Structure
+
+```
+.
+├── build/                 # Build output
+├── netlify/               # Netlify serverless functions
+│   └── functions/         # Backend functions
+├── public/                # Static assets
+├── scripts/               # Build and utility scripts
+└── src/                   # Source code
+    ├── components/        # React components
+    │   ├── AboutSection/
+    │   ├── common/
+    │   ├── ContactSection/
+    │   ├── Footer/
+    │   ├── HeroSection/
+    │   ├── Layout/
+    │   └── ProjectsSection/
+    ├── hooks/             # Custom React hooks
+    ├── providers/         # Context providers
+    ├── theme/             # Theme configuration
+    ├── types/             # TypeScript type definitions
+    └── utils/             # Utility functions
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Your Name - [your-email@example.com](mailto:your-email@example.com)
+
+Project Link: [https://github.com/maheshwar-prasad/demo-website](https://github.com/maheshwar-prasad/demo-website)
